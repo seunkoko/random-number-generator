@@ -1,0 +1,129 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "extends": "airbnb",
+  "plugins": ["react", "import", "filenames"],
+  "root": true,
+  "rules": {
+    "camelcase": 2,
+    "import/no-duplicates": 2,
+    "max-len": [2, 100, 2],
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "no-unneeded-ternary": [
+      2,
+      {
+        "defaultAssignment": false
+      }
+    ],
+    "no-restricted-globals": ["error", "event", "List", "Map", "Set"],
+    "operator-linebreak": [
+      2,
+      "after",
+      {
+        "overrides": {
+          "?": "ignore",
+          ":": "ignore"
+        }
+      }
+    ],
+    "padded-blocks": 0,
+    "react/jsx-no-bind": [
+      2,
+      {
+        "ignoreRefs": false,
+        "allowArrowFunctions": false,
+        "allowBind": false
+      }
+    ],
+    "object-curly-newline": ["error", {
+      "ObjectExpression": { "multiline": true, "minProperties": 2 },
+      "ObjectPattern": { "multiline": true, "minProperties": 2 },
+      "ExportDeclaration": { "multiline": true, "minProperties": 2 }
+    }],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "consistent-return": 0,
+    "quotes": [2, "single", "avoid-escape"],
+    "quote-props": [2, "as-needed"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/label-has-associated-control": [ 2, {
+      "labelComponents": ["CustomInputLabel"],
+      "labelAttributes": ["label"],
+      "controlComponents": ["CustomInput"],
+      "depth": 3
+    }],
+    "jsx-quotes": [2, "prefer-double"],
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [2, 2],
+    "react/jsx-no-undef": [2],
+    "react/no-unknown-property": [2],
+    "react/sort-comp": [
+      2,
+      {
+        "order": [
+          "type-annotations",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "/^render.+$/",
+          "render"
+        ]
+      }
+    ],
+    "max-params": [2, 4],
+    "no-use-before-define": [2, "nofunc"],
+    "no-multi-spaces": [
+      2,
+      {
+        "exceptions": {
+          "Property": true,
+          "VariableDeclarator": true,
+          "ImportDeclaration": true
+        }
+      }
+    ],
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "all",
+        "args": "none"
+      }
+    ],
+    "no-undef": 2,
+    "no-extra-bind": 2,
+    "filenames/match-exported": 0,
+    "require-jsdoc": [1, {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      }
+    }],
+    "valid-jsdoc": [1, {
+      "requireReturn": true,
+      "requireReturnType": true,
+      "requireParamDescription": true,
+      "requireReturnDescription": true
+    }]
+  }
+}
+  
