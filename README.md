@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/seunkoko/random-number-generator.svg?branch=develop)](https://travis-ci.com/seunkoko/random-number-generator)
+[![Coverage Status](https://coveralls.io/repos/github/seunkoko/random-number-generator/badge.svg?branch=develop)](https://coveralls.io/github/seunkoko/random-number-generator?branch=develop)
+
 # Random Number Generator
 
 This app generates unique random phone numbers with length of 10 digits (all starting with zero).
