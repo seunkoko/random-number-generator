@@ -7,6 +7,7 @@ import { BrowserRouter, Switch } from 'react-router-dom';
 
 // components
 import Header from '../components/Common/Header';
+import Footer from '../components/Common/Footer';
 import App from '../components/App';
 import NotFound from '../components/NotFound';
 
@@ -24,6 +25,7 @@ const Routes = () => (
         <Route exact path="/operations" component={App} />
         <Route component={NotFound} />
       </Switch>
+      <Footer />
     </Fragment>
   </BrowserRouter>
 );
