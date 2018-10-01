@@ -7,6 +7,8 @@ This app generates unique random phone numbers with length of 10 digits (all sta
 
 > Note: For learning purposes, you can follow the commit history of this repo.
 
+To view the app, visit [RNG](https://generate-pn-staging.herokuapp.com/)
+
 ### Features
 ---
 
