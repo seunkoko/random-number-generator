@@ -11,10 +11,13 @@
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
+    "react-paginate": "^5.2.4",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
-    "save": "^2.3.2"
+    "react-test-renderer": "^16.5.2",
+    "save": "^2.3.2",
+    "sinon": "^6.3.4"
   },
   "scripts": {
     "lint": "eslint --quiet",
@@ -44,11 +47,11 @@
   },
   "jest": {
     "collectCoverageFrom": [
-        "src/**/*.{js,jsx}",
-        "!src/registerServiceWorker.js",
-        "!src/index.js",
-        "!**/node_modules/**",
-        "!**/vendor/**"
+      "src/**/*.{js,jsx}",
+      "!src/registerServiceWorker.js",
+      "!src/index.js",
+      "!**/node_modules/**",
+      "!**/vendor/**"
     ]
   }
 }
