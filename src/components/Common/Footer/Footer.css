@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #DDDDDD;
+}
+
+.container {
+  padding: 0.5rem;
+}
+
+.text-muted {
+  color: #222222ba;
+  letter-spacing: 0.1rem;
+}
