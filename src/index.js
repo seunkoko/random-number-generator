@@ -1,10 +1,18 @@
 /* eslint-disable */
 // react library
 import React from 'react';
+
+// third-party libraries
 import ReactDOM from 'react-dom';
+
+// styles
 import './index.css';
-import App from '../src/components/App';
+
+// components
+import Routes from '../src/routes';
+
+// service worker
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Routes />, document.getElementById('root'));
 registerServiceWorker();

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App
+      history={[Function]}
+      homeActive={true}
+      location={[Function]}
+      match={[Function]}
+      operationsActive={true}
+    >
+      <div
+        className=""
+      >
+        <p>
+          Main Body
+        </p>
+      </div>
+    </App>
+  </Router>
+</BrowserRouter>
+`;
