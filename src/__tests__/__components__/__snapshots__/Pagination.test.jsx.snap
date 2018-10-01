@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders properly when props are supplied 1`] = `
+<nav
+  className="container pagination__container"
+/>
+`;
+
+exports[`Pagination renders properly when totalPages is greater than 0 1`] = `
+<nav
+  className="container pagination__container"
+>
+  <PaginationBoxView
+    activeClassName="active"
+    breakClassName="break-me"
+    breakLabel={
+      <a
+        href=""
+      >
+        ...
+      </a>
+    }
+    containerClassName="pagination justify-content-center"
+    disableInitialCallback={false}
+    disabledClassName="disabled"
+    id="reactPaginateId"
+    marginPagesDisplayed={3}
+    nextClassName="page-item next-button"
+    nextLabel=">"
+    nextLinkClassName="page-link"
+    onPageChange={[Function]}
+    pageClassName="page-item"
+    pageCount={100}
+    pageLinkClassName="page-link"
+    pageRangeDisplayed={10}
+    previousClassName="page-item"
+    previousLabel="<"
+    previousLinkClassName="page-link"
+  />
+</nav>
+`;
+
+exports[`Pagination renders properly when totalPages is less than 10 1`] = `
+<nav
+  className="container pagination__container"
+>
+  <PaginationBoxView
+    activeClassName="active"
+    breakClassName="break-me"
+    breakLabel={
+      <a
+        href=""
+      >
+        ...
+      </a>
+    }
+    containerClassName="pagination justify-content-center"
+    disableInitialCallback={false}
+    disabledClassName="disabled"
+    id="reactPaginateId"
+    marginPagesDisplayed={3}
+    nextClassName="page-item next-button"
+    nextLabel=">"
+    nextLinkClassName="page-link"
+    onPageChange={[Function]}
+    pageClassName="page-item"
+    pageCount={2}
+    pageLinkClassName="page-link"
+    pageRangeDisplayed={2}
+    previousClassName="page-item"
+    previousLabel="<"
+    previousLinkClassName="page-link"
+  />
+</nav>
+`;

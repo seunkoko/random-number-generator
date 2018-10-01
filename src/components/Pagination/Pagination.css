@@ -1,0 +1,42 @@
+.pagination__container {
+  margin-bottom: 2rem;
+}
+
+.pagination>.active>a {
+  background-color: #222222;
+  color: #F2F2F2 !important;
+  border-color: #222222;
+}
+
+.pagination>.active>a:focus {
+  background-color: #222222;
+  color: #F2F2F2 !important;
+  border-color: #222222;
+}
+
+.pagination>.active>a:hover {
+  background-color: #222222;
+  color: #F2F2F2 !important;
+  border-color: #222222;
+}
+
+.pagination>.active>span {
+  background-color: #222222;
+  color: #F2F2F2 !important;
+  border-color: #222222;
+}
+
+.pagination>.active>span:focus {
+  background-color: #222222;
+  color: #F2F2F2 !important;
+  border-color: #222222;
+}
+
+.pagination>.active>span:hover {
+  color: #222222 !important;
+  border-color: #222222;
+}
+
+.pagination>li>a {
+  color: #222222 !important;
+}
