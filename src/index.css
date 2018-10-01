@@ -1,5 +1,21 @@
-body {
+html, body {
+  display: flex;
+  text-align: center !important;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #F2F2F2;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+div {
+  display: block;
+}
+
+.container-fluid {
+  padding: 0;
 }
