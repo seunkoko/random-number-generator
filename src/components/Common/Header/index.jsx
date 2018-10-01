@@ -56,5 +56,4 @@ Header.propTypes = {
   operationsActive: PropTypes.bool.isRequired,
 };
 
-
 export default Header;

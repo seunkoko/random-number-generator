@@ -1,0 +1,12 @@
+.table__container {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+th {
+  font-size: 0.9rem;
+}
+
+td {
+  font-size: 0.8rem;
+}
