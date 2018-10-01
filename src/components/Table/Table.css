@@ -1,6 +1,14 @@
 .table__container {
+  display: block;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  height: 25rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.fixed_header {
+  background-color: #222222;
+  color: #F2F2F2;
 }
 
 th {

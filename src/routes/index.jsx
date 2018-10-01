@@ -10,6 +10,7 @@ import Header from '../components/Common/Header';
 import Footer from '../components/Common/Footer';
 import App from '../components/App';
 import NotFound from '../components/NotFound';
+import Table from '../components/Table';
 
 /**
  * Renders Routes layout and component
@@ -21,7 +22,7 @@ const Routes = () => (
     <Fragment>
       <Header homeActive operationsActive={false} />
       <Switch>
-        <Route exact path="/" component={App} />
+        <Route exact path="/" component={Table} />
         <Route exact path="/operations" component={App} />
         <Route component={NotFound} />
       </Switch>
