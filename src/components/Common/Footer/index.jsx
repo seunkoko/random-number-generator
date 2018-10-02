@@ -10,7 +10,7 @@ import './Footer.css';
  */
 const Footer = () => (
   <footer className="footer">
-    <div className="container">
+    <div className="footer__container">
       <span className="text-muted">© seunkoko 2018</span>
     </div>
   </footer>

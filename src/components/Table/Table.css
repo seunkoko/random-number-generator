@@ -1,7 +1,6 @@
 .table__container {
   display: block;
-  margin-top: 2rem;
-  height: 25rem;
+  height: 27rem;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -9,6 +8,7 @@
 .fixed_header {
   background-color: #222222;
   color: #F2F2F2;
+  letter-spacing: 0.1rem;
 }
 
 th {
