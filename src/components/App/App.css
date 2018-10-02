@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  word-wrap: break-word;
 }
 
 .App-logo {
@@ -39,6 +40,7 @@
   font-size: 0.8rem;
   width: 60%;
   height: 2.5rem;
+  word-wrap: break-word !important;
 }
 
 .btn__generate:hover {

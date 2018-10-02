@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 
 // third-party libraries
 import _ from 'lodash';
+import toastr from 'toastr';
+import * as fs from 'fs';
 
 // components
 import Header from '../Common/Header';
@@ -18,7 +20,7 @@ import { dummyGeneratedNumbers } from '../../utils/fixtures';
  * @class App
  * @extends {Component}
  *
- * @param {event} event - Synthetic Events
+ * @param {Event} event - Synthetic Events
  * @param {string} sort - value to sort by
  * @returns {JSX} JSX
  */
@@ -37,15 +39,36 @@ class App extends Component {
    */
   componentWillMount() {
     let { generatedNumbers } = this.state;
-    generatedNumbers = dummyGeneratedNumbers;
-    this.setState({ generatedNumbers });
+    fs.readFile('../../data.txt', 'utf-8', (err, data) => {
+      if (!err) {
+        const dataToReturn = data || JSON.stringify([]);
+        generatedNumbers = JSON.parse(dataToReturn);
+        this.setState({
+          generatedNumbers,
+          numberUpdated: true,
+        });
+      }
+    });
   }
 
-  onSubmit = () => {
-
+  onSubmit = (event) => {
+    event.preventDefault();
+    const dataToWrite = JSON.stringify(dummyGeneratedNumbers);
+    fs.writeFile('../../data.txt', dataToWrite, (err, data) => {
+      if (err) {
+        toastr.error('Something went wrong! Unable to generate numbers');
+      } else {
+        const generatedNumbers = JSON.parse(dataToWrite);
+        this.setState({
+          generatedNumbers,
+          numberUpdated: true,
+        });
+      }
+    });
   }
 
   onChange = (event) => {
+    event.preventDefault();
     const {
       name,
       value,
