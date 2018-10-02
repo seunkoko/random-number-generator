@@ -5,9 +5,10 @@
   width: 100%;
   text-align: center;
   background-color: #DDDDDD;
+  z-index: 10;
 }
 
-.container {
+.footer__container {
   padding: 0.5rem;
 }
 

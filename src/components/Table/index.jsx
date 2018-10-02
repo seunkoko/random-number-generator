@@ -21,29 +21,6 @@ import baseRouterProps from '../../utils/baseRouterProps';
  * @returns {JSX} JSX
  */
 class Table extends Component {
-  state = {
-    paginatedItems: {},
-    generatedNumbers: [],
-    totalPages: 0,
-  }
-
-  /**
-   * React component life cycle hook
-   *
-   * @memberof Table
-   * @return {void} - returns void
-   */
-  componentDidMount() {
-    const { generatedNumbers } = this.props;
-    const paginatedItems = this.getItems(generatedNumbers, 1, 20);
-    const { totalPages } = paginatedItems;
-    this.setState({
-      paginatedItems,
-      totalPages,
-      generatedNumbers,
-    });
-  }
-
   /**
    * getItems - function for paginating generated numbers
    *
@@ -52,7 +29,7 @@ class Table extends Component {
    * @param {number} perPage - number of items to be returned per page
    * @returns {object} paginated items
    */
-  getItems = (generatedNumbers, page, perPage) => {
+  static getItems(generatedNumbers, page, perPage) {
     const offset = (page - 1) * perPage;
 
     const paginatedItems = generatedNumbers.slice(offset).slice(0, perPage);
@@ -66,12 +43,59 @@ class Table extends Component {
       total: generatedNumbers.length,
       data: paginatedItems,
     };
+    return items;
+  }
+
+  state = {
+    paginatedItems: {},
+    generatedNumbers: [],
+    totalPages: 0,
+  }
+
+  /**
+   * React component life cycle hook
+   *
+   * @memberof Table
+   * @param {object} props - Props
+   * @param {object} state - State
+   * @return {object} - state
+   * @return {void} - no return
+   */
+  static getDerivedStateFromProps(props, state) {
+    const {
+      generatedNumbers,
+      numberUpdated,
+    } = props;
+
+    if (numberUpdated) {
+      const paginatedItems = Table.getItems(generatedNumbers, 1, 20);
+      const { totalPages } = paginatedItems;
+      return {
+        paginatedItems,
+        totalPages,
+        generatedNumbers,
+      };
+    }
+
+    return null;
+  }
+
+  /**
+   * React component life cycle hook
+   *
+   * @memberof Table
+   * @return {void} - returns void
+   */
+  componentDidMount() {
+    const { generatedNumbers } = this.props;
+    const paginatedItems = Table.getItems(generatedNumbers, 1, 20);
+    const { totalPages } = paginatedItems;
     this.setState({
       paginatedItems,
       totalPages,
+      generatedNumbers,
     });
-    return items;
-  };
+  }
 
   /**
    * handlePageClick - handles the change in page
@@ -83,7 +107,7 @@ class Table extends Component {
     const { selected } = data;
     const { generatedNumbers } = this.state;
     const currentPage = Math.ceil(selected) + 1;
-    const paginatedItems = this.getItems(generatedNumbers, currentPage, 20);
+    const paginatedItems = Table.getItems(generatedNumbers, currentPage, 20);
     const { totalPages } = paginatedItems;
     this.setState({
       paginatedItems,
@@ -150,9 +174,8 @@ Table.propTypes = {
       id: PropTypes.number.isRequired,
       value: PropTypes.number.isRequired,
     })
-  ),
+  ).isRequired,
+  numberUpdated: PropTypes.bool.isRequired,
 };
-
-Table.defaultProps = { generatedNumbers: [] };
 
 export default Table;

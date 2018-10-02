@@ -13,13 +13,33 @@ import Table from '../../components/Table';
 import { dummyGeneratedNumbers } from '../../utils/fixtures';
 
 describe('Table', () => {
-  const props = { generatedNumbers: dummyGeneratedNumbers };
+  let props = {
+    generatedNumbers: dummyGeneratedNumbers,
+    numberUpdated: false,
+  };
   let wrapper;
   beforeEach(() => {
     wrapper = mount(<Table {...props} />);
   });
 
   it('renders properly when props are supplied', () => {
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
+  it('renders properly when generatedNumbers is an empty Array', () => {
+    props = {
+      ...props,
+      generatedNumbers: [],
+    };
+    expect(toJson(wrapper)).toMatchSnapshot();
+  });
+
+  it('renders properly when numberUpdated is set to true', () => {
+    props = {
+      ...props,
+      numberUpdated: true,
+    };
+    wrapper = mount(<Table {...props} />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 
