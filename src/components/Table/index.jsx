@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 
 // third-party libraries
 import PropTypes from 'prop-types';
-// import { Table as BootstrapTable } from 'react-bootstrap';
 
 // components
 import Pagination from '../Pagination';
@@ -50,6 +49,7 @@ class Table extends Component {
     paginatedItems: {},
     generatedNumbers: [],
     totalPages: 0,
+    currentPage: 1,
   }
 
   /**
@@ -66,14 +66,16 @@ class Table extends Component {
       generatedNumbers,
       numberUpdated,
     } = props;
+    const { currentPage } = state;
 
     if (numberUpdated) {
-      const paginatedItems = Table.getItems(generatedNumbers, 1, 20);
+      const paginatedItems = Table.getItems(generatedNumbers, currentPage, 20);
       const { totalPages } = paginatedItems;
       return {
         paginatedItems,
         totalPages,
         generatedNumbers,
+        currentPage,
       };
     }
 
@@ -88,12 +90,14 @@ class Table extends Component {
    */
   componentDidMount() {
     const { generatedNumbers } = this.props;
-    const paginatedItems = Table.getItems(generatedNumbers, 1, 20);
+    const { currentPage } = this.state;
+    const paginatedItems = Table.getItems(generatedNumbers, currentPage, 20);
     const { totalPages } = paginatedItems;
     this.setState({
       paginatedItems,
       totalPages,
       generatedNumbers,
+      currentPage,
     });
   }
 
@@ -112,6 +116,8 @@ class Table extends Component {
     this.setState({
       paginatedItems,
       totalPages,
+      generatedNumbers,
+      currentPage,
     });
   };
 
