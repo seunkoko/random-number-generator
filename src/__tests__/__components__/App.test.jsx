@@ -12,6 +12,8 @@ import App from '../../components/App';
 import baseRouterProps from '../../utils/baseRouterProps';
 import { dummyGeneratedNumbers } from '../../utils/fixtures';
 
+const mock = require('mock-fs');
+
 let event = {
   target: {
     name: 'numberToGenerate',
@@ -32,7 +34,13 @@ describe('App', () => {
   };
   let wrapper;
   beforeEach(() => {
+    mock({ 'src/data.txt': {} });
     wrapper = mount(<App {...props} />);
+  });
+
+  afterAll(() => {
+    mock.restore();
+    wrapper.unmount();
   });
 
   it('renders without crashing', () => {
@@ -73,5 +81,11 @@ describe('App', () => {
     wrapper.find('.number').first().simulate('change', event);
     expect(onChangeSpy.called).toEqual(true);
     expect(wrapper.state().numberToGenerate).toEqual(0);
+  });
+
+  it('should call the onSubmit method', () => {
+    const onSubmitSpy = spy(wrapper.instance(), 'onSubmit');
+    wrapper.instance().onChange(event);
+    wrapper.find('.btn__generate').first().simulate('submit', event);
   });
 });

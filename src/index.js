@@ -4,6 +4,7 @@ import React from 'react';
 
 // third-party libraries
 import ReactDOM from 'react-dom';
+import toastr from 'toastr';
 
 // styles
 import './index.css';
