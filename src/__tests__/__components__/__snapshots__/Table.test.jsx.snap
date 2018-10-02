@@ -1,371 +1,372 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Table renders properly when props are supplied 1`] = `
+exports[`Table renders properly when generatedNumbers is an empty Array 1`] = `
 <Table
   generatedNumbers={
     Array [
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 1222222222,
       },
       Object {
         "id": 1,
-        "value": 1111111111,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 22211122222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 22445522222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2122222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
         "id": 1,
-        "value": 1111111111,
+        "value": 2222222222,
       },
       Object {
         "id": 1,
-        "value": 1111111111,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
       Object {
-        "id": 1,
-        "value": 1111111111,
+        "id": 2,
+        "value": 2222222222,
       },
     ]
   }
+  numberUpdated={false}
 >
   <div>
     <div
@@ -403,10 +404,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               1
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -416,10 +417,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               2
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              1222222222
             </td>
           </tr>
           <tr
@@ -432,7 +433,7 @@ exports[`Table renders properly when props are supplied 1`] = `
               1
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -442,10 +443,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               4
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              22211122222
             </td>
           </tr>
           <tr
@@ -455,10 +456,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               5
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -468,10 +469,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               6
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              22445522222
             </td>
           </tr>
           <tr
@@ -481,10 +482,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               7
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2122222222
             </td>
           </tr>
           <tr
@@ -494,10 +495,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               8
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -507,10 +508,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               9
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -520,10 +521,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               10
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -533,10 +534,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               11
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -546,10 +547,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               12
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -559,10 +560,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               13
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -572,10 +573,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               14
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -585,10 +586,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               15
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -598,10 +599,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               16
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -611,10 +612,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               17
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -624,10 +625,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               18
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -637,10 +638,10 @@ exports[`Table renders properly when props are supplied 1`] = `
               19
             </td>
             <td>
-              1
+              2
             </td>
             <td>
-              1111111111
+              2222222222
             </td>
           </tr>
           <tr
@@ -650,10 +651,924 @@ exports[`Table renders properly when props are supplied 1`] = `
               20
             </td>
             <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <Pagination
+      handlePageClick={[Function]}
+      id="paginateId"
+      totalPages={5}
+    >
+      <nav
+        className="container pagination__container"
+      >
+        <PaginationBoxView
+          activeClassName="active"
+          breakClassName="break-me"
+          breakLabel={
+            <a
+              href=""
+            >
+              ...
+            </a>
+          }
+          containerClassName="pagination justify-content-center"
+          disableInitialCallback={false}
+          disabledClassName="disabled"
+          id="reactPaginateId"
+          marginPagesDisplayed={3}
+          nextClassName="page-item next-button"
+          nextLabel=">"
+          nextLinkClassName="page-link"
+          onPageChange={[Function]}
+          pageClassName="page-item"
+          pageCount={5}
+          pageLinkClassName="page-link"
+          pageRangeDisplayed={5}
+          previousClassName="page-item"
+          previousLabel="<"
+          previousLinkClassName="page-link"
+        >
+          <ul
+            className="pagination justify-content-center"
+          >
+            <li
+              className="page-item disabled"
+            >
+              <a
+                className="page-link"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                &lt;
+              </a>
+            </li>
+            <PageView
+              activeClassName="active"
+              key="0"
+              onClick={[Function]}
+              page={1}
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              selected={true}
+            >
+              <li
+                className="page-item active"
+              >
+                <a
+                  aria-current="page"
+                  aria-label="Page 1 is your current page"
+                  className="page-link"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  1
+                </a>
+              </li>
+            </PageView>
+            <PageView
+              activeClassName="active"
+              key="1"
+              onClick={[Function]}
+              page={2}
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              selected={false}
+            >
+              <li
+                className="page-item"
+              >
+                <a
+                  aria-current={null}
+                  aria-label="Page 2"
+                  className="page-link"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  2
+                </a>
+              </li>
+            </PageView>
+            <PageView
+              activeClassName="active"
+              key="2"
+              onClick={[Function]}
+              page={3}
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              selected={false}
+            >
+              <li
+                className="page-item"
+              >
+                <a
+                  aria-current={null}
+                  aria-label="Page 3"
+                  className="page-link"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  3
+                </a>
+              </li>
+            </PageView>
+            <PageView
+              activeClassName="active"
+              key="3"
+              onClick={[Function]}
+              page={4}
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              selected={false}
+            >
+              <li
+                className="page-item"
+              >
+                <a
+                  aria-current={null}
+                  aria-label="Page 4"
+                  className="page-link"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  4
+                </a>
+              </li>
+            </PageView>
+            <PageView
+              activeClassName="active"
+              key="4"
+              onClick={[Function]}
+              page={5}
+              pageClassName="page-item"
+              pageLinkClassName="page-link"
+              selected={false}
+            >
+              <li
+                className="page-item"
+              >
+                <a
+                  aria-current={null}
+                  aria-label="Page 5"
+                  className="page-link"
+                  onClick={[Function]}
+                  onKeyPress={[Function]}
+                  role="button"
+                  tabIndex="0"
+                >
+                  5
+                </a>
+              </li>
+            </PageView>
+            <li
+              className="page-item next-button"
+            >
+              <a
+                className="page-link"
+                onClick={[Function]}
+                onKeyPress={[Function]}
+                role="button"
+                tabIndex="0"
+              >
+                &gt;
+              </a>
+            </li>
+          </ul>
+        </PaginationBoxView>
+      </nav>
+    </Pagination>
+  </div>
+</Table>
+`;
+
+exports[`Table renders properly when numberUpdated is set to true 1`] = `
+<Table
+  generatedNumbers={Array []}
+  numberUpdated={true}
+>
+  <div>
+    <div
+      className="table__container container"
+    >
+      <table
+        className="table table-striped no-move"
+      >
+        <thead
+          className="fixed_header"
+        >
+          <tr>
+            <th>
+              #
+            </th>
+            <th
+              className="text-center"
+            >
+              Unique Identifier
+            </th>
+            <th
+              className="text-center"
+            >
+              Generated Number
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="scroll_body"
+        >
+          <tr>
+            <td
+              colSpan="3"
+            >
+              No numbers found
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <Pagination
+      handlePageClick={[Function]}
+      id="paginateId"
+      totalPages={0}
+    >
+      <nav
+        className="container pagination__container"
+      />
+    </Pagination>
+  </div>
+</Table>
+`;
+
+exports[`Table renders properly when props are supplied 1`] = `
+<Table
+  generatedNumbers={
+    Array [
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 1222222222,
+      },
+      Object {
+        "id": 1,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 22211122222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 22445522222,
+      },
+      Object {
+        "id": 2,
+        "value": 2122222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 1,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 1,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+      Object {
+        "id": 2,
+        "value": 2222222222,
+      },
+    ]
+  }
+  numberUpdated={false}
+>
+  <div>
+    <div
+      className="table__container container"
+    >
+      <table
+        className="table table-striped no-move"
+      >
+        <thead
+          className="fixed_header"
+        >
+          <tr>
+            <th>
+              #
+            </th>
+            <th
+              className="text-center"
+            >
+              Unique Identifier
+            </th>
+            <th
+              className="text-center"
+            >
+              Generated Number
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="scroll_body"
+        >
+          <tr
+            key="tableRow0"
+          >
+            <td>
               1
             </td>
             <td>
-              1111111111
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow1"
+          >
+            <td>
+              2
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              1222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow2"
+          >
+            <td>
+              3
+            </td>
+            <td>
+              1
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow3"
+          >
+            <td>
+              4
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              22211122222
+            </td>
+          </tr>
+          <tr
+            key="tableRow4"
+          >
+            <td>
+              5
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow5"
+          >
+            <td>
+              6
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              22445522222
+            </td>
+          </tr>
+          <tr
+            key="tableRow6"
+          >
+            <td>
+              7
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2122222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow7"
+          >
+            <td>
+              8
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow8"
+          >
+            <td>
+              9
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow9"
+          >
+            <td>
+              10
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow10"
+          >
+            <td>
+              11
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow11"
+          >
+            <td>
+              12
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow12"
+          >
+            <td>
+              13
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow13"
+          >
+            <td>
+              14
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow14"
+          >
+            <td>
+              15
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow15"
+          >
+            <td>
+              16
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow16"
+          >
+            <td>
+              17
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow17"
+          >
+            <td>
+              18
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow18"
+          >
+            <td>
+              19
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
+            </td>
+          </tr>
+          <tr
+            key="tableRow19"
+          >
+            <td>
+              20
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              2222222222
             </td>
           </tr>
         </tbody>

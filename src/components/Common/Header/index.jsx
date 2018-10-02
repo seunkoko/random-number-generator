@@ -27,7 +27,7 @@ const Header = (props) => {
   return (
     <nav className="navbar navbar-inverse">
       <div className="container-fluid">
-        <div className="container">
+        <div className="container header__container">
           <div className="navbar-header">
             <img alt="" className="__logo" src={logo} />
             <a className="navbar-brand" href="/">Random Number Generator</a>

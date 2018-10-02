@@ -7,22 +7,51 @@
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.home__container {
+  margin-top: 4rem;
+  height: 6rem;
+  color: #222222;
 }
 
-.App-title {
-  font-size: 1.5em;
+.dropdown {
+  margin-top: 0.1rem;
+  height: 2rem;
 }
 
-.App-intro {
-  font-size: large;
+#numberInput {
+  width: 70%;
+  font-size: 0.8rem;
+  height: 2.5rem;
+  padding: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.btn__dropdown {
+  background-color: #F2F2F2;
+  width: 40%;
+  font-size: 0.8rem;
+}
+
+.btn__generate {
+  background-color: #222222;
+  color: #CCCCCC;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  width: 60%;
+  height: 2.5rem;
+}
+
+.btn__generate:hover {
+  background-color: #222222;
+  color: #F2F2F2;
+}
+
+.btn__generate:focus {
+  background-color: #222222;
+  color: #F2F2F2;
+}
+
+.btn__generate:active {
+  background-color: #222222;
+  color: #F2F2F2;
 }

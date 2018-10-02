@@ -32,7 +32,7 @@ ReactWrapper {
                 class="container-fluid"
         >
                 <div
-                        class="container"
+                        class="container header__container"
                 >
                         <div
                                 class="navbar-header"
@@ -83,7 +83,7 @@ ReactWrapper {
           className="container-fluid"
 >
           <div
-                    className="container"
+                    className="container header__container"
           >
                     <div
                               className="navbar-header"
@@ -135,7 +135,7 @@ ReactWrapper {
             class="container-fluid"
 >
             <div
-                        class="container"
+                        class="container header__container"
             >
                         <div
                                     class="navbar-header"
@@ -182,7 +182,7 @@ ReactWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <div
-              className="container"
+              className="container header__container"
 >
               <div
                             className="navbar-header"
@@ -230,7 +230,7 @@ ReactWrapper {
           "rendered": Array [
             Object {
               "instance": <div
-                class="container"
+                class="container header__container"
 >
                 <div
                                 class="navbar-header"
@@ -316,7 +316,7 @@ ReactWrapper {
                     </li>
 </ul>,
                 ],
-                "className": "container",
+                "className": "container header__container",
               },
               "ref": null,
               "rendered": Array [
@@ -578,7 +578,7 @@ ReactWrapper {
                     class="container-fluid"
           >
                     <div
-                              class="container"
+                              class="container header__container"
                     >
                               <div
                                         class="navbar-header"
@@ -629,7 +629,7 @@ ReactWrapper {
             className="container-fluid"
 >
             <div
-                        className="container"
+                        className="container header__container"
             >
                         <div
                                     className="navbar-header"
@@ -681,7 +681,7 @@ ReactWrapper {
               class="container-fluid"
 >
               <div
-                            class="container"
+                            class="container header__container"
               >
                             <div
                                           class="navbar-header"
@@ -728,7 +728,7 @@ ReactWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <div
-                className="container"
+                className="container header__container"
 >
                 <div
                                 className="navbar-header"
@@ -776,7 +776,7 @@ ReactWrapper {
             "rendered": Array [
               Object {
                 "instance": <div
-                  class="container"
+                  class="container header__container"
 >
                   <div
                                     class="navbar-header"
@@ -862,7 +862,7 @@ ReactWrapper {
                       </li>
 </ul>,
                   ],
-                  "className": "container",
+                  "className": "container header__container",
                 },
                 "ref": null,
                 "rendered": Array [

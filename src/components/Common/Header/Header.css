@@ -7,17 +7,24 @@
   width: 100%;
 }
 
+.header__container {
+  font-size: 0.8rem;
+}
+
 .nav {
   float: right;
+  letter-spacing: 0.1rem;
 }
 
 .navbar-brand {
   color: #F2F2F2 !important;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 .__logo {
   float: left;
-  margin: 0.5rem 0.5rem 0 0;
+  margin: 0.5rem 1rem 0 0;
   width: 3rem;
   height: 2rem;
 }
