@@ -1,0 +1,76 @@
+.operations__container {
+  width: 70%;
+  color: #222222;
+}
+
+.description {
+  margin-top: 4rem;
+}
+
+
+.btn__operation {
+  background-color: #00AB34;
+  color: #F2F2F2;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  width: 40%;
+  height: 3rem;
+  border-color: #00AB34;
+  margin-top: 2rem;
+}
+
+.btn__operation:hover {
+  background-color: #00AF13C7;
+  border-color: #00AF13C7;
+  color: #F2F2F2;
+}
+
+.btn__operation:focus-within {
+  background-color: #00AB34;
+  border-color: #00AB34;
+  color: #F2F2F2;
+}
+
+.btn__operation:focus {
+  background-color: #00AB34;
+  border-color: #00AB34;
+  color: #F2F2F2;
+}
+
+.btn__operation:visited {
+  background-color: #00AB34;
+  border-color: #00AB34;
+  color: #F2F2F2;
+}
+
+.btn__operation:active {
+  background-color: #00AB34;
+  border-color: #00AB34;
+  color: #F2F2F2;
+}
+
+.card-text {
+  margin-top: 2rem;
+  color: #3A5343;
+  width: 60%;
+  height: 3rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.jumbotron__container {
+  background-color: #F2F2F2;
+  border: 1px #222222 solid;
+  width: 70%;
+  margin: auto;
+  margin-top: 12rem;
+  color: #222222;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+[contentEditable=false]:empty:not(:focus):before{
+  content:attr(data-text)
+}
