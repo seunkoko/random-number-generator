@@ -6,9 +6,9 @@ import { Route } from 'react-router';
 import { BrowserRouter, Switch } from 'react-router-dom';
 
 // components
-import Header from '../components/Common/Header';
 import Footer from '../components/Common/Footer';
 import App from '../components/App';
+import Operations from '../components/Operations';
 import NotFound from '../components/NotFound';
 
 /**
@@ -19,10 +19,9 @@ import NotFound from '../components/NotFound';
 const Routes = () => (
   <BrowserRouter>
     <Fragment>
-      <Header homeActive operationsActive={false} />
       <Switch>
         <Route exact path="/" component={App} />
-        <Route exact path="/operations" component={App} />
+        <Route exact path="/operations" component={Operations} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

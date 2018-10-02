@@ -9,10 +9,12 @@
 }
 
 .footer__container {
-  padding: 0.5rem;
+  padding: 1rem;
+  height: 3rem;
+  font-size: 0.4rem;
 }
 
 .text-muted {
   color: #222222ba;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
 }
