@@ -178,7 +178,7 @@ Table.propTypes = {
   generatedNumbers: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
-      value: PropTypes.number.isRequired,
+      value: PropTypes.string.isRequired,
     })
   ).isRequired,
   numberUpdated: PropTypes.bool.isRequired,

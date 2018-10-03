@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer renders properly 1`] = `
-ReactWrapper {
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Footer />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -11,27 +12,55 @@ ReactWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
-  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
-    "props": Object {},
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="footer__container"
+>
+        <span
+                className="text-muted"
+        >
+                © seunkoko 2018
+        </span>
+</div>,
+      "className": "footer",
+    },
     "ref": null,
     "rendered": Object {
-      "instance": <footer
-        class="footer"
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <span
+          className="text-muted"
 >
-        <div
-                class="footer__container"
-        >
-                <span
-                        class="text-muted"
-                >
-                        © seunkoko 2018
-                </span>
-        </div>
-</footer>,
+          © seunkoko 2018
+</span>,
+        "className": "footer__container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "© seunkoko 2018",
+          "className": "text-muted",
+        },
+        "ref": null,
+        "rendered": "© seunkoko 2018",
+        "type": "span",
+      },
+      "type": "div",
+    },
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
@@ -47,139 +76,34 @@ ReactWrapper {
         "className": "footer",
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": <div
-            class="footer__container"
->
-            <span
-                        class="text-muted"
-            >
-                        © seunkoko 2018
-            </span>
-</div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <span
-              className="text-muted"
->
-              © seunkoko 2018
-</span>,
-            "className": "footer__container",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": <span
-                class="text-muted"
->
-                © seunkoko 2018
-</span>,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "© seunkoko 2018",
-                "className": "text-muted",
-              },
-              "ref": null,
-              "rendered": Array [
-                "© seunkoko 2018",
-              ],
-              "type": "span",
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "footer",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {},
-      "ref": null,
       "rendered": Object {
-        "instance": <footer
-          class="footer"
->
-          <div
-                    class="footer__container"
-          >
-                    <span
-                              class="text-muted"
-                    >
-                              © seunkoko 2018
-                    </span>
-          </div>
-</footer>,
+        "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="footer__container"
+          "children": <span
+            className="text-muted"
 >
-            <span
-                        className="text-muted"
-            >
-                        © seunkoko 2018
-            </span>
-</div>,
-          "className": "footer",
+            © seunkoko 2018
+</span>,
+          "className": "footer__container",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": <div
-              class="footer__container"
->
-              <span
-                            class="text-muted"
-              >
-                            © seunkoko 2018
-              </span>
-</div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <span
-                className="text-muted"
->
-                © seunkoko 2018
-</span>,
-              "className": "footer__container",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": <span
-                  class="text-muted"
->
-                  © seunkoko 2018
-</span>,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "© seunkoko 2018",
-                  "className": "text-muted",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "© seunkoko 2018",
-                ],
-                "type": "span",
-              },
-            ],
-            "type": "div",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "© seunkoko 2018",
+            "className": "text-muted",
           },
-        ],
-        "type": "footer",
+          "ref": null,
+          "rendered": "© seunkoko 2018",
+          "type": "span",
+        },
+        "type": "div",
       },
-      "type": [Function],
+      "type": "footer",
     },
   ],
   Symbol(enzyme.__options__): Object {
