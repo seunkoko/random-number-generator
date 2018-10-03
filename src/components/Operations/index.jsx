@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 
 // third-party libraries
+import * as fs from 'fs';
 import _ from 'lodash';
 
 // components
@@ -9,9 +10,6 @@ import Header from '../Common/Header';
 
 // styles
 import './Operations.css';
-
-// utils
-import { dummyGeneratedNumbers } from '../../utils/fixtures';
 
 /**
  * @className Operations
@@ -25,15 +23,22 @@ class Operations extends Component {
 
   getNumber = (type) => {
     let { displayNumber } = this.state;
-    const generatedNumbers = dummyGeneratedNumbers;
-    if (type === 'min') {
-      displayNumber = _.minBy(generatedNumbers, 'value');
-    }
-    if (type === 'max') {
-      displayNumber = _.maxBy(generatedNumbers, 'value');
-    }
-    displayNumber = displayNumber.value;
-    this.setState({ displayNumber });
+    fs.readFile('../../data.txt', 'utf-8', (err, data) => {
+      if (err) { // eslint-disable-line
+        this.setState({ displayNumber: 'No Generated Numbers' });
+      } else {
+        const dataToReturn = data || JSON.stringify([]);
+        const generatedNumbers = JSON.parse(dataToReturn);
+        if (type === 'min') {
+          displayNumber = _.minBy(generatedNumbers, 'value');
+        }
+        if (type === 'max') {
+          displayNumber = _.maxBy(generatedNumbers, 'value');
+        }
+        displayNumber = displayNumber.value;
+        this.setState({ displayNumber });
+      }
+    });
   }
 
   render = () => {

@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders properly 1`] = `
-ReactWrapper {
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Header
     homeActive={false}
     operationsActive={true}
@@ -14,68 +15,315 @@ ReactWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
-  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "host",
     "props": Object {
-      "homeActive": false,
-      "operationsActive": true,
+      "children": <div
+        className="container-fluid"
+>
+        <div
+                className="container header__container"
+        >
+                <div
+                        className="navbar-header"
+                >
+                        <img
+                                alt=""
+                                className="__logo"
+                                src="rng-logo-black.png"
+                        />
+                        <a
+                                className="navbar-brand"
+                                href="/"
+                        >
+                                Random Number Generator
+                        </a>
+                </div>
+                <ul
+                        className="nav navbar-nav"
+                >
+                        <li
+                                className=""
+                        >
+                                <a
+                                        href="/"
+                                        id="homeTab"
+                                >
+                                        Home
+                                </a>
+                        </li>
+                        <li
+                                className="active"
+                        >
+                                <a
+                                        href="/operations"
+                                        id="operationsTab"
+                                >
+                                        Operations
+                                </a>
+                        </li>
+                </ul>
+        </div>
+</div>,
+      "className": "navbar navbar-inverse",
     },
     "ref": null,
     "rendered": Object {
-      "instance": <nav
-        class="navbar navbar-inverse"
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container header__container"
 >
-        <div
-                class="container-fluid"
-        >
-                <div
-                        class="container header__container"
-                >
-                        <div
-                                class="navbar-header"
-                        >
-                                <img
-                                        alt=""
-                                        class="__logo"
-                                        src="rng-logo-black.png"
-                                />
-                                <a
-                                        class="navbar-brand"
+          <div
+                    className="navbar-header"
+          >
+                    <img
+                              alt=""
+                              className="__logo"
+                              src="rng-logo-black.png"
+                    />
+                    <a
+                              className="navbar-brand"
+                              href="/"
+                    >
+                              Random Number Generator
+                    </a>
+          </div>
+          <ul
+                    className="nav navbar-nav"
+          >
+                    <li
+                              className=""
+                    >
+                              <a
                                         href="/"
-                                >
-                                        Random Number Generator
-                                </a>
-                        </div>
-                        <ul
-                                class="nav navbar-nav"
-                        >
-                                <li
-                                        class=""
-                                >
-                                        <a
-                                                id="homeTab"
-                                                href="/"
-                                        >
-                                                Home
-                                        </a>
-                                </li>
-                                <li
-                                        class="active"
-                                >
-                                        <a
-                                                id="operationsTab"
-                                                href="/operations"
-                                        >
-                                                Operations
-                                        </a>
-                                </li>
-                        </ul>
-                </div>
-        </div>
-</nav>,
+                                        id="homeTab"
+                              >
+                                        Home
+                              </a>
+                    </li>
+                    <li
+                              className="active"
+                    >
+                              <a
+                                        href="/operations"
+                                        id="operationsTab"
+                              >
+                                        Operations
+                              </a>
+                    </li>
+          </ul>
+</div>,
+        "className": "container-fluid",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="navbar-header"
+>
+              <img
+                            alt=""
+                            className="__logo"
+                            src="rng-logo-black.png"
+              />
+              <a
+                            className="navbar-brand"
+                            href="/"
+              >
+                            Random Number Generator
+              </a>
+</div>,
+            <ul
+              className="nav navbar-nav"
+>
+              <li
+                            className=""
+              >
+                            <a
+                                          href="/"
+                                          id="homeTab"
+                            >
+                                          Home
+                            </a>
+              </li>
+              <li
+                            className="active"
+              >
+                            <a
+                                          href="/operations"
+                                          id="operationsTab"
+                            >
+                                          Operations
+                            </a>
+              </li>
+</ul>,
+          ],
+          "className": "container header__container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt=""
+                  className="__logo"
+                  src="rng-logo-black.png"
+/>,
+                <a
+                  className="navbar-brand"
+                  href="/"
+>
+                  Random Number Generator
+</a>,
+              ],
+              "className": "navbar-header",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "",
+                  "className": "__logo",
+                  "src": "rng-logo-black.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Random Number Generator",
+                  "className": "navbar-brand",
+                  "href": "/",
+                },
+                "ref": null,
+                "rendered": "Random Number Generator",
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className=""
+>
+                  <a
+                                    href="/"
+                                    id="homeTab"
+                  >
+                                    Home
+                  </a>
+</li>,
+                <li
+                  className="active"
+>
+                  <a
+                                    href="/operations"
+                                    id="operationsTab"
+                  >
+                                    Operations
+                  </a>
+</li>,
+              ],
+              "className": "nav navbar-nav",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="/"
+                    id="homeTab"
+>
+                    Home
+</a>,
+                  "className": "",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Home",
+                    "href": "/",
+                    "id": "homeTab",
+                  },
+                  "ref": null,
+                  "rendered": "Home",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="/operations"
+                    id="operationsTab"
+>
+                    Operations
+</a>,
+                  "className": "active",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Operations",
+                    "href": "/operations",
+                    "id": "operationsTab",
+                  },
+                  "ref": null,
+                  "rendered": "Operations",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
@@ -129,982 +377,256 @@ ReactWrapper {
         "className": "navbar navbar-inverse",
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": <div
-            class="container-fluid"
->
-            <div
-                        class="container header__container"
-            >
-                        <div
-                                    class="navbar-header"
-                        >
-                                    <img
-                                                alt=""
-                                                class="__logo"
-                                                src="rng-logo-black.png"
-                                    />
-                                    <a
-                                                class="navbar-brand"
-                                                href="/"
-                                    >
-                                                Random Number Generator
-                                    </a>
-                        </div>
-                        <ul
-                                    class="nav navbar-nav"
-                        >
-                                    <li
-                                                class=""
-                                    >
-                                                <a
-                                                            id="homeTab"
-                                                            href="/"
-                                                >
-                                                            Home
-                                                </a>
-                                    </li>
-                                    <li
-                                                class="active"
-                                    >
-                                                <a
-                                                            id="operationsTab"
-                                                            href="/operations"
-                                                >
-                                                            Operations
-                                                </a>
-                                    </li>
-                        </ul>
-            </div>
-</div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <div
-              className="container header__container"
->
-              <div
-                            className="navbar-header"
-              >
-                            <img
-                                          alt=""
-                                          className="__logo"
-                                          src="rng-logo-black.png"
-                            />
-                            <a
-                                          className="navbar-brand"
-                                          href="/"
-                            >
-                                          Random Number Generator
-                            </a>
-              </div>
-              <ul
-                            className="nav navbar-nav"
-              >
-                            <li
-                                          className=""
-                            >
-                                          <a
-                                                        href="/"
-                                                        id="homeTab"
-                                          >
-                                                        Home
-                                          </a>
-                            </li>
-                            <li
-                                          className="active"
-                            >
-                                          <a
-                                                        href="/operations"
-                                                        id="operationsTab"
-                                          >
-                                                        Operations
-                                          </a>
-                            </li>
-              </ul>
-</div>,
-            "className": "container-fluid",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": <div
-                class="container header__container"
->
-                <div
-                                class="navbar-header"
-                >
-                                <img
-                                                alt=""
-                                                class="__logo"
-                                                src="rng-logo-black.png"
-                                />
-                                <a
-                                                class="navbar-brand"
-                                                href="/"
-                                >
-                                                Random Number Generator
-                                </a>
-                </div>
-                <ul
-                                class="nav navbar-nav"
-                >
-                                <li
-                                                class=""
-                                >
-                                                <a
-                                                                id="homeTab"
-                                                                href="/"
-                                                >
-                                                                Home
-                                                </a>
-                                </li>
-                                <li
-                                                class="active"
-                                >
-                                                <a
-                                                                id="operationsTab"
-                                                                href="/operations"
-                                                >
-                                                                Operations
-                                                </a>
-                                </li>
-                </ul>
-</div>,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <div
-                    className="navbar-header"
->
-                    <img
-                                        alt=""
-                                        className="__logo"
-                                        src="rng-logo-black.png"
-                    />
-                    <a
-                                        className="navbar-brand"
-                                        href="/"
-                    >
-                                        Random Number Generator
-                    </a>
-</div>,
-                  <ul
-                    className="nav navbar-nav"
->
-                    <li
-                                        className=""
-                    >
-                                        <a
-                                                            href="/"
-                                                            id="homeTab"
-                                        >
-                                                            Home
-                                        </a>
-                    </li>
-                    <li
-                                        className="active"
-                    >
-                                        <a
-                                                            href="/operations"
-                                                            id="operationsTab"
-                                        >
-                                                            Operations
-                                        </a>
-                    </li>
-</ul>,
-                ],
-                "className": "container header__container",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": <div
-                    class="navbar-header"
->
-                    <img
-                                        alt=""
-                                        class="__logo"
-                                        src="rng-logo-black.png"
-                    />
-                    <a
-                                        class="navbar-brand"
-                                        href="/"
-                    >
-                                        Random Number Generator
-                    </a>
-</div>,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <img
-                        alt=""
-                        className="__logo"
-                        src="rng-logo-black.png"
-/>,
-                      <a
-                        className="navbar-brand"
-                        href="/"
->
-                        Random Number Generator
-</a>,
-                    ],
-                    "className": "navbar-header",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": <img
-                        alt=""
-                        class="__logo"
-                        src="rng-logo-black.png"
-/>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "alt": "",
-                        "className": "__logo",
-                        "src": "rng-logo-black.png",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        undefined,
-                      ],
-                      "type": "img",
-                    },
-                    Object {
-                      "instance": <a
-                        class="navbar-brand"
-                        href="/"
->
-                        Random Number Generator
-</a>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": "Random Number Generator",
-                        "className": "navbar-brand",
-                        "href": "/",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        "Random Number Generator",
-                      ],
-                      "type": "a",
-                    },
-                  ],
-                  "type": "div",
-                },
-                Object {
-                  "instance": <ul
-                    class="nav navbar-nav"
->
-                    <li
-                                        class=""
-                    >
-                                        <a
-                                                            id="homeTab"
-                                                            href="/"
-                                        >
-                                                            Home
-                                        </a>
-                    </li>
-                    <li
-                                        class="active"
-                    >
-                                        <a
-                                                            id="operationsTab"
-                                                            href="/operations"
-                                        >
-                                                            Operations
-                                        </a>
-                    </li>
-</ul>,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      <li
-                        className=""
->
-                        <a
-                                                href="/"
-                                                id="homeTab"
-                        >
-                                                Home
-                        </a>
-</li>,
-                      <li
-                        className="active"
->
-                        <a
-                                                href="/operations"
-                                                id="operationsTab"
-                        >
-                                                Operations
-                        </a>
-</li>,
-                    ],
-                    "className": "nav navbar-nav",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    Object {
-                      "instance": <li
-                        class=""
->
-                        <a
-                                                id="homeTab"
-                                                href="/"
-                        >
-                                                Home
-                        </a>
-</li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <a
-                          href="/"
-                          id="homeTab"
->
-                          Home
-</a>,
-                        "className": "",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": <a
-                            id="homeTab"
-                            href="/"
->
-                            Home
-</a>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Home",
-                            "href": "/",
-                            "id": "homeTab",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            "Home",
-                          ],
-                          "type": "a",
-                        },
-                      ],
-                      "type": "li",
-                    },
-                    Object {
-                      "instance": <li
-                        class="active"
->
-                        <a
-                                                id="operationsTab"
-                                                href="/operations"
-                        >
-                                                Operations
-                        </a>
-</li>,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": <a
-                          href="/operations"
-                          id="operationsTab"
->
-                          Operations
-</a>,
-                        "className": "active",
-                      },
-                      "ref": null,
-                      "rendered": Array [
-                        Object {
-                          "instance": <a
-                            id="operationsTab"
-                            href="/operations"
->
-                            Operations
-</a>,
-                          "key": undefined,
-                          "nodeType": "host",
-                          "props": Object {
-                            "children": "Operations",
-                            "href": "/operations",
-                            "id": "operationsTab",
-                          },
-                          "ref": null,
-                          "rendered": Array [
-                            "Operations",
-                          ],
-                          "type": "a",
-                        },
-                      ],
-                      "type": "li",
-                    },
-                  ],
-                  "type": "ul",
-                },
-              ],
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "nav",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "homeActive": false,
-        "operationsActive": true,
-      },
-      "ref": null,
       "rendered": Object {
-        "instance": <nav
-          class="navbar navbar-inverse"
->
-          <div
-                    class="container-fluid"
-          >
-                    <div
-                              class="container header__container"
-                    >
-                              <div
-                                        class="navbar-header"
-                              >
-                                        <img
-                                                  alt=""
-                                                  class="__logo"
-                                                  src="rng-logo-black.png"
-                                        />
-                                        <a
-                                                  class="navbar-brand"
-                                                  href="/"
-                                        >
-                                                  Random Number Generator
-                                        </a>
-                              </div>
-                              <ul
-                                        class="nav navbar-nav"
-                              >
-                                        <li
-                                                  class=""
-                                        >
-                                                  <a
-                                                            id="homeTab"
-                                                            href="/"
-                                                  >
-                                                            Home
-                                                  </a>
-                                        </li>
-                                        <li
-                                                  class="active"
-                                        >
-                                                  <a
-                                                            id="operationsTab"
-                                                            href="/operations"
-                                                  >
-                                                            Operations
-                                                  </a>
-                                        </li>
-                              </ul>
-                    </div>
-          </div>
-</nav>,
+        "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="container-fluid"
+            className="container header__container"
 >
             <div
-                        className="container header__container"
+                        className="navbar-header"
             >
-                        <div
-                                    className="navbar-header"
+                        <img
+                                    alt=""
+                                    className="__logo"
+                                    src="rng-logo-black.png"
+                        />
+                        <a
+                                    className="navbar-brand"
+                                    href="/"
                         >
-                                    <img
-                                                alt=""
-                                                className="__logo"
-                                                src="rng-logo-black.png"
-                                    />
-                                    <a
-                                                className="navbar-brand"
-                                                href="/"
-                                    >
-                                                Random Number Generator
-                                    </a>
-                        </div>
-                        <ul
-                                    className="nav navbar-nav"
-                        >
-                                    <li
-                                                className=""
-                                    >
-                                                <a
-                                                            href="/"
-                                                            id="homeTab"
-                                                >
-                                                            Home
-                                                </a>
-                                    </li>
-                                    <li
-                                                className="active"
-                                    >
-                                                <a
-                                                            href="/operations"
-                                                            id="operationsTab"
-                                                >
-                                                            Operations
-                                                </a>
-                                    </li>
-                        </ul>
+                                    Random Number Generator
+                        </a>
             </div>
+            <ul
+                        className="nav navbar-nav"
+            >
+                        <li
+                                    className=""
+                        >
+                                    <a
+                                                href="/"
+                                                id="homeTab"
+                                    >
+                                                Home
+                                    </a>
+                        </li>
+                        <li
+                                    className="active"
+                        >
+                                    <a
+                                                href="/operations"
+                                                id="operationsTab"
+                                    >
+                                                Operations
+                                    </a>
+                        </li>
+            </ul>
 </div>,
-          "className": "navbar navbar-inverse",
+          "className": "container-fluid",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": <div
-              class="container-fluid"
->
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
               <div
-                            class="container header__container"
-              >
-                            <div
-                                          class="navbar-header"
-                            >
-                                          <img
-                                                        alt=""
-                                                        class="__logo"
-                                                        src="rng-logo-black.png"
-                                          />
-                                          <a
-                                                        class="navbar-brand"
-                                                        href="/"
-                                          >
-                                                        Random Number Generator
-                                          </a>
-                            </div>
-                            <ul
-                                          class="nav navbar-nav"
-                            >
-                                          <li
-                                                        class=""
-                                          >
-                                                        <a
-                                                                      id="homeTab"
-                                                                      href="/"
-                                                        >
-                                                                      Home
-                                                        </a>
-                                          </li>
-                                          <li
-                                                        class="active"
-                                          >
-                                                        <a
-                                                                      id="operationsTab"
-                                                                      href="/operations"
-                                                        >
-                                                                      Operations
-                                                        </a>
-                                          </li>
-                            </ul>
-              </div>
-</div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <div
-                className="container header__container"
+                className="navbar-header"
 >
-                <div
-                                className="navbar-header"
+                <img
+                                alt=""
+                                className="__logo"
+                                src="rng-logo-black.png"
+                />
+                <a
+                                className="navbar-brand"
+                                href="/"
                 >
-                                <img
-                                                alt=""
-                                                className="__logo"
-                                                src="rng-logo-black.png"
-                                />
+                                Random Number Generator
+                </a>
+</div>,
+              <ul
+                className="nav navbar-nav"
+>
+                <li
+                                className=""
+                >
                                 <a
-                                                className="navbar-brand"
                                                 href="/"
+                                                id="homeTab"
                                 >
-                                                Random Number Generator
+                                                Home
                                 </a>
-                </div>
-                <ul
-                                className="nav navbar-nav"
+                </li>
+                <li
+                                className="active"
                 >
-                                <li
-                                                className=""
+                                <a
+                                                href="/operations"
+                                                id="operationsTab"
                                 >
-                                                <a
-                                                                href="/"
-                                                                id="homeTab"
-                                                >
-                                                                Home
-                                                </a>
-                                </li>
-                                <li
-                                                className="active"
-                                >
-                                                <a
-                                                                href="/operations"
-                                                                id="operationsTab"
-                                                >
-                                                                Operations
-                                                </a>
-                                </li>
-                </ul>
-</div>,
-              "className": "container-fluid",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": <div
-                  class="container header__container"
->
-                  <div
-                                    class="navbar-header"
-                  >
-                                    <img
-                                                      alt=""
-                                                      class="__logo"
-                                                      src="rng-logo-black.png"
-                                    />
-                                    <a
-                                                      class="navbar-brand"
-                                                      href="/"
-                                    >
-                                                      Random Number Generator
-                                    </a>
-                  </div>
-                  <ul
-                                    class="nav navbar-nav"
-                  >
-                                    <li
-                                                      class=""
-                                    >
-                                                      <a
-                                                                        id="homeTab"
-                                                                        href="/"
-                                                      >
-                                                                        Home
-                                                      </a>
-                                    </li>
-                                    <li
-                                                      class="active"
-                                    >
-                                                      <a
-                                                                        id="operationsTab"
-                                                                        href="/operations"
-                                                      >
-                                                                        Operations
-                                                      </a>
-                                    </li>
-                  </ul>
-</div>,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <div
-                      className="navbar-header"
->
-                      <img
-                                            alt=""
-                                            className="__logo"
-                                            src="rng-logo-black.png"
-                      />
-                      <a
-                                            className="navbar-brand"
-                                            href="/"
-                      >
-                                            Random Number Generator
-                      </a>
-</div>,
-                    <ul
-                      className="nav navbar-nav"
->
-                      <li
-                                            className=""
-                      >
-                                            <a
-                                                                  href="/"
-                                                                  id="homeTab"
-                                            >
-                                                                  Home
-                                            </a>
-                      </li>
-                      <li
-                                            className="active"
-                      >
-                                            <a
-                                                                  href="/operations"
-                                                                  id="operationsTab"
-                                            >
-                                                                  Operations
-                                            </a>
-                      </li>
+                                                Operations
+                                </a>
+                </li>
 </ul>,
-                  ],
-                  "className": "container header__container",
-                },
-                "ref": null,
-                "rendered": Array [
-                  Object {
-                    "instance": <div
-                      class="navbar-header"
->
-                      <img
-                                            alt=""
-                                            class="__logo"
-                                            src="rng-logo-black.png"
-                      />
-                      <a
-                                            class="navbar-brand"
-                                            href="/"
-                      >
-                                            Random Number Generator
-                      </a>
-</div>,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <img
-                          alt=""
-                          className="__logo"
-                          src="rng-logo-black.png"
-/>,
-                        <a
-                          className="navbar-brand"
-                          href="/"
->
-                          Random Number Generator
-</a>,
-                      ],
-                      "className": "navbar-header",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": <img
-                          alt=""
-                          class="__logo"
-                          src="rng-logo-black.png"
-/>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "alt": "",
-                          "className": "__logo",
-                          "src": "rng-logo-black.png",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          undefined,
-                        ],
-                        "type": "img",
-                      },
-                      Object {
-                        "instance": <a
-                          class="navbar-brand"
-                          href="/"
->
-                          Random Number Generator
-</a>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": "Random Number Generator",
-                          "className": "navbar-brand",
-                          "href": "/",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          "Random Number Generator",
-                        ],
-                        "type": "a",
-                      },
-                    ],
-                    "type": "div",
-                  },
-                  Object {
-                    "instance": <ul
-                      class="nav navbar-nav"
->
-                      <li
-                                            class=""
-                      >
-                                            <a
-                                                                  id="homeTab"
-                                                                  href="/"
-                                            >
-                                                                  Home
-                                            </a>
-                      </li>
-                      <li
-                                            class="active"
-                      >
-                                            <a
-                                                                  id="operationsTab"
-                                                                  href="/operations"
-                                            >
-                                                                  Operations
-                                            </a>
-                      </li>
-</ul>,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        <li
-                          className=""
->
-                          <a
-                                                    href="/"
-                                                    id="homeTab"
-                          >
-                                                    Home
-                          </a>
-</li>,
-                        <li
-                          className="active"
->
-                          <a
-                                                    href="/operations"
-                                                    id="operationsTab"
-                          >
-                                                    Operations
-                          </a>
-</li>,
-                      ],
-                      "className": "nav navbar-nav",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      Object {
-                        "instance": <li
-                          class=""
->
-                          <a
-                                                    id="homeTab"
-                                                    href="/"
-                          >
-                                                    Home
-                          </a>
-</li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <a
-                            href="/"
-                            id="homeTab"
->
-                            Home
-</a>,
-                          "className": "",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": <a
-                              id="homeTab"
-                              href="/"
->
-                              Home
-</a>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Home",
-                              "href": "/",
-                              "id": "homeTab",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              "Home",
-                            ],
-                            "type": "a",
-                          },
-                        ],
-                        "type": "li",
-                      },
-                      Object {
-                        "instance": <li
-                          class="active"
->
-                          <a
-                                                    id="operationsTab"
-                                                    href="/operations"
-                          >
-                                                    Operations
-                          </a>
-</li>,
-                        "key": undefined,
-                        "nodeType": "host",
-                        "props": Object {
-                          "children": <a
-                            href="/operations"
-                            id="operationsTab"
->
-                            Operations
-</a>,
-                          "className": "active",
-                        },
-                        "ref": null,
-                        "rendered": Array [
-                          Object {
-                            "instance": <a
-                              id="operationsTab"
-                              href="/operations"
->
-                              Operations
-</a>,
-                            "key": undefined,
-                            "nodeType": "host",
-                            "props": Object {
-                              "children": "Operations",
-                              "href": "/operations",
-                              "id": "operationsTab",
-                            },
-                            "ref": null,
-                            "rendered": Array [
-                              "Operations",
-                            ],
-                            "type": "a",
-                          },
-                        ],
-                        "type": "li",
-                      },
-                    ],
-                    "type": "ul",
-                  },
-                ],
-                "type": "div",
-              },
             ],
-            "type": "div",
+            "className": "container header__container",
           },
-        ],
-        "type": "nav",
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt=""
+                    className="__logo"
+                    src="rng-logo-black.png"
+/>,
+                  <a
+                    className="navbar-brand"
+                    href="/"
+>
+                    Random Number Generator
+</a>,
+                ],
+                "className": "navbar-header",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "",
+                    "className": "__logo",
+                    "src": "rng-logo-black.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Random Number Generator",
+                    "className": "navbar-brand",
+                    "href": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Random Number Generator",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className=""
+>
+                    <a
+                                        href="/"
+                                        id="homeTab"
+                    >
+                                        Home
+                    </a>
+</li>,
+                  <li
+                    className="active"
+>
+                    <a
+                                        href="/operations"
+                                        id="operationsTab"
+                    >
+                                        Operations
+                    </a>
+</li>,
+                ],
+                "className": "nav navbar-nav",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="/"
+                      id="homeTab"
+>
+                      Home
+</a>,
+                    "className": "",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Home",
+                      "href": "/",
+                      "id": "homeTab",
+                    },
+                    "ref": null,
+                    "rendered": "Home",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <a
+                      href="/operations"
+                      id="operationsTab"
+>
+                      Operations
+</a>,
+                    "className": "active",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Operations",
+                      "href": "/operations",
+                      "id": "operationsTab",
+                    },
+                    "ref": null,
+                    "rendered": "Operations",
+                    "type": "a",
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
       },
-      "type": [Function],
+      "type": "nav",
     },
   ],
   Symbol(enzyme.__options__): Object {
