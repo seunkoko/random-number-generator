@@ -6,363 +6,363 @@ exports[`Table renders properly when generatedNumbers is an empty Array 1`] = `
     Array [
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 1222222222,
-      },
-      Object {
-        "id": 1,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 22211122222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 22445522222,
-      },
-      Object {
-        "id": 2,
-        "value": 2122222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
+        "value": "1222222222",
       },
       Object {
         "id": 1,
-        "value": 2222222222,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "22211122222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "22445522222",
+      },
+      Object {
+        "id": 2,
+        "value": "2122222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
       },
       Object {
         "id": 1,
-        "value": 2222222222,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 1,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
     ]
   }
@@ -920,363 +920,363 @@ exports[`Table renders properly when props are supplied 1`] = `
     Array [
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 1222222222,
-      },
-      Object {
-        "id": 1,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 22211122222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 22445522222,
-      },
-      Object {
-        "id": 2,
-        "value": 2122222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
-      },
-      Object {
-        "id": 2,
-        "value": 2222222222,
+        "value": "1222222222",
       },
       Object {
         "id": 1,
-        "value": 2222222222,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "22211122222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "22445522222",
+      },
+      Object {
+        "id": 2,
+        "value": "2122222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 2,
+        "value": "2222222222",
       },
       Object {
         "id": 1,
-        "value": 2222222222,
+        "value": "2222222222",
+      },
+      Object {
+        "id": 1,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
       Object {
         "id": 2,
-        "value": 2222222222,
+        "value": "2222222222",
       },
     ]
   }

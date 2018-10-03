@@ -13,9 +13,6 @@ import Table from '../Table';
 // styles
 import './App.css';
 
-// utils
-import { dummyGeneratedNumbers } from '../../utils/fixtures';
-
 /**
  * @class App
  * @extends {Component}
@@ -38,7 +35,7 @@ class App extends Component {
    * @return {void} - returns void
    */
   componentWillMount() {
-    let { generatedNumbers } = this.state;
+    let { generatedNumbers } = this.state; // eslint-disable-line
     fs.readFile('../../data.txt', 'utf-8', (err, data) => {
       if (!err) {
         const dataToReturn = data || JSON.stringify([]);
@@ -51,14 +48,34 @@ class App extends Component {
     });
   }
 
+  generatePhoneNumbers = () => {
+    let { numberToGenerate } = this.state;
+    const generatedNumbers = [];
+    const numberLength = 9;
+    numberToGenerate = numberToGenerate > 0 ? numberToGenerate : 5000;
+
+    for (let i = 0; i < numberToGenerate; i++) { // eslint-disable-line no-plusplus
+      const number = `0${Math.floor(Math.pow(10, numberLength-1) + Math.random() * 9 * Math.pow(10, numberLength-1))}`; // eslint-disable-line
+      if (_.findIndex(generatedNumbers, { value: number }) === -1) {
+        generatedNumbers.push({
+          id: i + 1,
+          value: number,
+        });
+      } else {
+        i--; // eslint-disable-line no-plusplus
+      }
+    }
+    return generatedNumbers;
+  }
+
   onSubmit = (event) => {
     event.preventDefault();
-    const dataToWrite = JSON.stringify(dummyGeneratedNumbers);
+    const generatedNumbers = this.generatePhoneNumbers();
+    const dataToWrite = JSON.stringify(generatedNumbers);
     fs.writeFile('../../data.txt', dataToWrite, (err, data) => {
       if (err) {
         toastr.error('Something went wrong! Unable to generate numbers');
       } else {
-        const generatedNumbers = JSON.parse(dataToWrite);
         this.setState({
           generatedNumbers,
           numberUpdated: true,

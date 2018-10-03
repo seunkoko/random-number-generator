@@ -33,6 +33,7 @@ describe('App', () => {
     generatedNumbers: dummyGeneratedNumbers,
   };
   let wrapper;
+
   beforeEach(() => {
     mock({ 'src/data.txt': {} });
     wrapper = mount(<App {...props} />);
@@ -87,5 +88,12 @@ describe('App', () => {
     const onSubmitSpy = spy(wrapper.instance(), 'onSubmit');
     wrapper.instance().onChange(event);
     wrapper.find('.btn__generate').first().simulate('submit', event);
+    expect(onSubmitSpy.called).toEqual(false);
+  });
+
+  it('should call the generatePhoneNumbers method', () => {
+    const generatePhoneNumbersSpy = spy(wrapper.instance(), 'generatePhoneNumbers');
+    wrapper.instance().generatePhoneNumbers();
+    expect(generatePhoneNumbersSpy.called).toEqual(true);
   });
 });
