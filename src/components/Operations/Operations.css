@@ -69,8 +69,40 @@
   letter-spacing: 0.5rem;
   font-weight: bold;
   font-size: 1.2rem;
+  margin-bottom: 6rem;
 }
 
 [contentEditable=false]:empty:not(:focus):before{
   content:attr(data-text)
+}
+
+@media screen and (max-width: 766px) {
+  .jumbotron__container {
+    margin-top: 4rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .description {
+    margin-top: 1rem;
+  }
+
+  .jumbotron__container {
+    margin-top: 4rem;
+    font-size: 0.5rem;
+    width: 90%;
+  }
+
+  .card-text {
+    height: 6rem;
+  }
+
+  .card-title {
+    margin: 2rem auto;
+  }
+
+  .btn__operation {
+    width: 80%;
+  }
 }

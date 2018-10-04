@@ -22,23 +22,27 @@ class Operations extends Component {
   state = { displayNumber: null };
 
   getNumber = (type) => {
-    let { displayNumber } = this.state;
     fs.readFile('../../data.txt', 'utf-8', (err, data) => {
       if (err) { // eslint-disable-line
         this.setState({ displayNumber: 'No Generated Numbers' });
-      } else {
-        const dataToReturn = data || JSON.stringify([]);
-        const generatedNumbers = JSON.parse(dataToReturn);
-        if (type === 'min') {
-          displayNumber = _.minBy(generatedNumbers, 'value');
-        }
-        if (type === 'max') {
-          displayNumber = _.maxBy(generatedNumbers, 'value');
-        }
-        displayNumber = displayNumber.value;
-        this.setState({ displayNumber });
+        return null;
       }
+      const dataToReturn = data || JSON.stringify([]);
+      const generatedNumbers = JSON.parse(dataToReturn);
+      this.setNumber(type, generatedNumbers);
     });
+  }
+
+  setNumber = (type, generatedNumbers) => {
+    let displayNumber;
+    if (type === 'min') {
+      displayNumber = _.minBy(generatedNumbers, 'value');
+    }
+    if (type === 'max') {
+      displayNumber = _.maxBy(generatedNumbers, 'value');
+    }
+    displayNumber = displayNumber.value;
+    this.setState({ displayNumber });
   }
 
   render = () => {

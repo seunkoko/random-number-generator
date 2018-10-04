@@ -57,3 +57,46 @@
   background-color: #222222;
   color: #F2F2F2;
 }
+
+@media screen and (max-width: 1098px) {
+  #numberInput {
+    width: 100%;
+  }
+  
+  .btn__dropdown {
+    width: 80%;
+  }
+  
+  .btn__generate {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .home__container {
+    margin-top: 1rem;
+    height: 13rem;
+  }
+
+  #numberInput {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  
+  .btn__dropdown {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+    height: 2.5rem;
+  }
+  
+  .btn__generate {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
