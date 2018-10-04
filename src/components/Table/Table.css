@@ -18,3 +18,11 @@ th {
 td {
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 480px) {
+  .table__container {
+    display: block;
+    position: relative;
+    overflow-x: auto;
+  }
+}

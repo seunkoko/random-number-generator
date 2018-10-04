@@ -41,3 +41,9 @@
 .pagination>li>a {
   color: #222222 !important;
 }
+
+@media screen and (max-width: 480px) {
+  .pagination__container {
+    width: 90%;
+  }
+}

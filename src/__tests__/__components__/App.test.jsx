@@ -1,6 +1,5 @@
 import React from 'react';
 
-// third-party libraries
 import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 import { spy } from 'sinon';
@@ -32,10 +31,20 @@ describe('App', () => {
     operationsActive: true,
     generatedNumbers: dummyGeneratedNumbers,
   };
+  const mockData = [
+    {
+      id: 1,
+      value: '0987654321',
+    },
+    {
+      id: 2,
+      value: '0123456789',
+    },
+  ];
   let wrapper;
 
   beforeEach(() => {
-    mock({ 'src/data.txt': {} });
+    mock({ '../../data.txt': JSON.stringify([]) });
     wrapper = mount(<App {...props} />);
   });
 
@@ -84,16 +93,32 @@ describe('App', () => {
     expect(wrapper.state().numberToGenerate).toEqual(0);
   });
 
-  it('should call the onSubmit method', () => {
-    const onSubmitSpy = spy(wrapper.instance(), 'onSubmit');
-    wrapper.instance().onChange(event);
-    wrapper.find('.btn__generate').first().simulate('submit', event);
-    expect(onSubmitSpy.called).toEqual(false);
-  });
-
   it('should call the generatePhoneNumbers method', () => {
     const generatePhoneNumbersSpy = spy(wrapper.instance(), 'generatePhoneNumbers');
     wrapper.instance().generatePhoneNumbers();
     expect(generatePhoneNumbersSpy.called).toEqual(true);
+  });
+
+  it('should call the generatePhoneNumbers method with duplicate phone numbers', () => {
+    const generatePhoneNumbersSpy = spy(wrapper.instance(), 'generatePhoneNumbers');
+    wrapper.instance().generatePhoneNumbers();
+    expect(generatePhoneNumbersSpy.called).toEqual(true);
+  });
+
+  it('should call the setComponentState method', () => {
+    const setComponentStateSpy = spy(wrapper.instance(), 'setComponentState');
+    wrapper.instance().setComponentState(mockData);
+    expect(setComponentStateSpy.called).toEqual(true);
+    expect(wrapper.state().generatedNumbers).toEqual(mockData);
+    expect(wrapper.state().numberUpdated).toEqual(true);
+  });
+
+  it('should call the onSubmit method', () => {
+    event = { preventDefault: spy() };
+    const onSubmitSpy = spy(wrapper.instance(), 'onSubmit');
+    wrapper.instance().onSubmit(event);
+    wrapper.find('.btn__generate').first().simulate('submit', event);
+    expect(onSubmitSpy.called).toEqual(true);
+    expect(wrapper.state().generatedNumbers).toEqual([]);
   });
 });
