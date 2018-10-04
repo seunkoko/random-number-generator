@@ -35,22 +35,18 @@ class App extends Component {
    * @return {void} - returns void
    */
   componentWillMount() {
-    let { generatedNumbers } = this.state; // eslint-disable-line
-    fs.readFile('../../data.txt', 'utf-8', (err, data) => {
-      if (!err) {
-        const dataToReturn = data || JSON.stringify([]);
-        generatedNumbers = JSON.parse(dataToReturn);
-        this.setState({
-          generatedNumbers,
-          numberUpdated: true,
-        });
-      }
+    fs.readFile('../../data.txt', 'utf-8', (err, data) => !err ? this.setComponentState(JSON.parse(data) || []) : null); // eslint-disable-line
+  }
+
+  setComponentState = (generatedNumbers) => {
+    this.setState({
+      generatedNumbers,
+      numberUpdated: true,
     });
   }
 
-  generatePhoneNumbers = () => {
+  generatePhoneNumbers = (generatedNumbers = []) => {
     let { numberToGenerate } = this.state;
-    const generatedNumbers = [];
     const numberLength = 9;
     numberToGenerate = numberToGenerate > 0 ? numberToGenerate : 5000;
 
@@ -61,9 +57,7 @@ class App extends Component {
           id: i + 1,
           value: number,
         });
-      } else {
-        i--; // eslint-disable-line no-plusplus
-      }
+      } else i--; // eslint-disable-line no-plusplus
     }
     return generatedNumbers;
   }
@@ -72,16 +66,7 @@ class App extends Component {
     event.preventDefault();
     const generatedNumbers = this.generatePhoneNumbers();
     const dataToWrite = JSON.stringify(generatedNumbers);
-    fs.writeFile('../../data.txt', dataToWrite, (err, data) => {
-      if (err) {
-        toastr.error('Something went wrong! Unable to generate numbers');
-      } else {
-        this.setState({
-          generatedNumbers,
-          numberUpdated: true,
-        });
-      }
-    });
+    fs.writeFile('../../data.txt', dataToWrite, (err, data) => err ? toastr.error('Something went wrong! Unable to generate numbers') : this.setComponentState(generatedNumbers)); // eslint-disable-line
   }
 
   onChange = (event) => {
@@ -131,7 +116,7 @@ class App extends Component {
                   <input
                     id="numberInput"
                     className="number"
-                    placeholder="not greater than 5000"
+                    placeholder="&le; 5000"
                     type="number"
                     name="numberToGenerate"
                     max="5000"
